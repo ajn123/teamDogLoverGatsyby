@@ -8,6 +8,8 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
+import logo from "../../static/img/Team-Dog-Lover-logos_white.png";
+
 
 /*
 <div className="columns">
@@ -54,9 +56,11 @@ export const IndexPageTemplate = ({
                   <div className="content">
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
+
                     </div>
                     <div className="tile">
                       <h3 className="subtitle">{mainpitch.description}</h3>
+                      
                     </div>
                   </div>
                   
