@@ -1,11 +1,11 @@
 ---
 templateKey: 'product-page'
 path: /products
-title: Our Coffee
+title: Our Dog Walking Services
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
+  Team Dog Lover is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
   roasting and brewing seriously and we’re glad to pass that knowledge to
   anyone.
@@ -71,31 +71,31 @@ testimonials:
       stance on empowering farmers and transparency.
 full_image: /img/products-full-width.jpg
 pricing:
-  heading: Monthly subscriptions
+  heading: Daily Services
   description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
+    We make it easy to make our team a part of your life. Choose one of our
+    services and we can customize it to your preferences.  We will work with you for a custom 
+    schedule and time that fits your needs.  We always offer a free meet and greet for first time customers for their pet(s).
   plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
+    - description: Perfect for the owner who just needs their pet for a quick walk
       items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
+        - Additional dog $5/each
+        - Potty break
+        - Treat time!
+      plan: 30 minute walk
+      price: '30'
+    - description: Ideal for those who have a very active and energetic pet
+      items:
+        - Additional dog $5/each
+        - Potty Break
+        - Treat time!
+      plan: 1 hour walk
       price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+    - description: Enjoy overnight care from 7PM-7AM
       items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+        - 30 minute morning walk
+        - Each Additional Pets $25/night
+        - internet is required at the residence
+      plan: Overnight pet sitting
+      price: '85'
 ---

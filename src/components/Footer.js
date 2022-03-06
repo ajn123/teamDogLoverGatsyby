@@ -39,11 +39,7 @@ const Footer = class extends React.Component {
                         Products
                       </Link>
                     </li>
-                    <li>
-                      <Link className="navbar-item" to="/contact/examples">
-                        Form Examples
-                      </Link>
-                    </li>
+                
                     <li>
                       <a
                         className="navbar-item"
@@ -73,7 +69,30 @@ const Footer = class extends React.Component {
                   </ul>
                 </section>
               </div>
-              <div className="column is-4 social">
+              
+            </div>
+          </div>
+        </div>
+      </footer>
+    );
+  }
+};
+
+export default Footer;
+
+/*
+  <li>
+                      <Link className="navbar-item" to="/contact/examples">
+                        Form Examples
+                      </Link>
+                    </li>
+
+                    */
+
+
+/*
+
+<div className="column is-4 social">
                 <a title="facebook" href="https://facebook.com">
                   <img
                     src={facebook}
@@ -104,12 +123,5 @@ const Footer = class extends React.Component {
                   />
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    );
-  }
-};
 
-export default Footer;
+              */
