@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great Dog Walking in the DMV Area
-image: /img/young-couple.jpg
+image: /img/dalmation.jpg
 heading: Great Dog Walking in the DMV Area
 subheading: ''
 mainpitch:

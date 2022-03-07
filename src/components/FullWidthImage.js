@@ -10,7 +10,7 @@ export default function FullWidthImage(props) {
     img,
     title,
     subheading,
-    imgPosition = "top left",
+    imgPosition = "center",
   } = props;
 
   return (
@@ -30,11 +30,11 @@ export default function FullWidthImage(props) {
             style={{
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
-              height: height,
+              height: "100%",
               width: "100%",
             }}
             // You can optionally force an aspect ratio for the generated image
-            aspectratio={3 / 1}
+            aspectratio={1 / 1}
             // This is a presentational image, so the alt should be an empty string
             alt=""
             formats={["auto", "webp", "avif"]}
@@ -48,6 +48,7 @@ export default function FullWidthImage(props) {
               gridArea: "1/1",
               // You can set a maximum height for the image, if you wish.
               maxHeight: height,
+              'object-fit': 'contain'
             }}
             layout="fullWidth"
             // You can optionally force an aspect ratio for the generated image
