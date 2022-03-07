@@ -39,20 +39,20 @@ export default class Index extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <h1>Contact</h1>
+              <h1>Apply to the Team Dog Walker Team</h1>
               <h3>
-                If you are interested in us walking your dog.  Fill out this form and we will get back to you as quickly as possible
+                Hello!  If you would like to apply to be a walker please fill out the form below:
               </h3>
               <form
-                name="contact"
+                name="apply"
                 method="post"
-                action="/contact/thanks/"
+                action="/apply/thanks/"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
                 onSubmit={this.handleSubmit}
               >
                 {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
-                <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="form-name" value="apply" />
                 <div hidden>
                   <label>
                     Don’t fill this out:{" "}
