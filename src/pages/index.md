@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great Dog Walking in the DMV Area
-image: /img/home-jumbotron.jpg
+image: /img/young-couple.jpg
 heading: Great Dog Walking in the DMV Area
 subheading: ''
 mainpitch:
@@ -9,7 +9,7 @@ mainpitch:
   description: >
     Team Dog Lover is for everyone who believes that pet's
     aren't just animals, they are friends.  We try our best to accomodate all requests
-    and set the ultimate standard for pet care.
+    and set the ultimate standard for pet care.  
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
