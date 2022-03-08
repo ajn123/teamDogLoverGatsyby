@@ -2,7 +2,7 @@
 templateKey: 'product-page'
 path: /products
 title: Our Dog Walking Services
-image: /img/young-couple.jpg
+image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
 description: >-
   Team Dog Lover is the ultimate spot for coffee lovers who want to learn about their

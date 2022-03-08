@@ -43,6 +43,44 @@ export default class Index extends React.Component {
               <h3>
                 Hello!  If you would like to apply to be a walker please fill out the form below:
               </h3>
+              <p>
+                WORK WITH TRUSTED AND LOVED DOG WALKERS
+                Want to make some money with a business that reinvests in the Community and you!  Team Dog Lover is looking for dog walkers!
+                Most dog walk schedules are Monday through Friday between 9AM and 5pm - You can work when your schedule permits and only take jobs you desire
+                <ul>
+                  <li>
+                    A free meet and great is 25$ (all paid to you)
+                  </li>
+                  <li>
+                  The services are 30$ for a minute walk. (You make 25$)
+                  </li>
+                  <li>
+                    45$ for a hour hour walk (You make 35$)
+                  </li>
+                  <li>
+                    85$ for an overnight stay/house boarding. (You make 70$)
+                  </li>
+                </ul>
+                QUALIFICATIONS:
+                <ol>
+                  <li>
+                    Reliable, responsible, and honest
+                  </li>
+                  <li>
+                    18 years of age or older
+                  </li>
+                  <li>
+                    Ability to handle various breeds and sizes of dogs
+                  </li>
+                  <li>
+                    Ability to walk dogs in all weather conditions
+                  </li>
+                  <li>
+                    Pass a background check
+                  </li>
+                </ol>
+                Set a schedule that works for you.  Enjoy camaraderie with your fellow dog walkers
+              </p>
               <form
                 name="apply"
                 method="post"
