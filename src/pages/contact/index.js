@@ -41,7 +41,7 @@ export default class Index extends React.Component {
             <div className="content">
               <h1>Contact</h1>
               <h3>
-                If you are interested in us walking your dog.  Fill out this form and we will get back to you as quickly as possible
+                If you are interested in us walking your dog.  Fill out this form and we will get back to you as quickly as possible.  Leave your phone number if you want us to get back to you that way.
               </h3>
               <form
                 name="contact"
