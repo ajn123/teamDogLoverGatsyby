@@ -6317,6 +6317,14 @@
     "minimatch" "3.0.4"
     "web-vitals" "^1.1.2"
 
+"gatsby-plugin-google-gtag@^4.9.0":
+  "integrity" "sha512-wD2h+7CJUEbF1S3EoftOhwdhhNN7lnfy6LxAbT721HcYPgfFJ2ibwt6G40TdfyrwVueym6wdzkw1p3/U+/1abQ=="
+  "resolved" "https://registry.npmjs.org/gatsby-plugin-google-gtag/-/gatsby-plugin-google-gtag-4.9.0.tgz"
+  "version" "4.9.0"
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "minimatch" "^3.0.4"
+
 "gatsby-plugin-image@^2.0.0":
   "integrity" "sha512-oxG+oZ1kYboX/75jOxHZeV6Xzo5xHZ/8KUQpni58nI1+xaxZRFBthXg1SetSs8nWRsXR5Y+bq8FAf0R0iGjySg=="
   "resolved" "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-2.3.0.tgz"
