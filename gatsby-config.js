@@ -43,7 +43,7 @@ module.exports = {
         cookieDomain: "teamdoglover.com",
         // defaults to false
         enableWebVitalsTracking: true,
-    },
+      },
     },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
