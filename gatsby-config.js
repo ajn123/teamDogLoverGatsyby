@@ -22,9 +22,6 @@ module.exports = {
         },
       },
     },
-    
-
-    
 // {
 //       resolve: `gatsby-plugin-google-gtag`,
 //       options: {
