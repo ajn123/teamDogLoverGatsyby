@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://www.teamdoglover.com'
     title: "Team Dog Lover",
     description:
       "This is the website for Team Dog Lover.  Providing Dog Walking Services in Virginia, Washington DC, and Maryland.  We are looking for dog walkers and potential clients.",
@@ -22,6 +23,7 @@ module.exports = {
         },
       },
     },
+    'gatsby-plugin-robots-txt',
 // {
 //       resolve: `gatsby-plugin-google-gtag`,
 //       options: {
