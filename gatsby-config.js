@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "Team Dog Lover",
     description:
-      "This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.",
+      "This is the website for Team Dog Lover.  Providing Dog Walking Services in Virginia, Washington DC, and Maryland.  We are looking for dog walkers and potential clients.",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
