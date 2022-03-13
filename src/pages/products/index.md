@@ -90,7 +90,7 @@ pricing:
         - Potty Break
         - Treat time!
       plan: 1 hour walk
-      price: '50'
+      price: '45'
     - description: Enjoy overnight care from 7PM-7AM
       items:
         - 30 minute morning walk
