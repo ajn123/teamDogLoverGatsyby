@@ -9,7 +9,7 @@ mainpitch:
   description: >
     Team Dog Lover is for everyone who believes that pet's
     aren't just animals, they are friends.  We try our best to accomodate all requests
-    and set the ultimate standard for pet care.  
+    and set the ultimate standard for pet care.  We offer dog walking and overnight pet care.
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,

@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 import { getImage } from "gatsby-plugin-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
@@ -30,7 +30,15 @@ export const ProductPageTemplate = ({
          <section className="section section--gradient">
         <div className="container">
           <div className="section">
+          <div className="columns">
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/contact">
+                        Contact Us
+                      </Link>
+                    </div>
+                  </div>
             <div className="columns">
+
               <div className="column is-10 is-offset-1">
                 <h2 className="has-text-weight-semibold is-size-2">
                   {pricing.heading}
@@ -38,7 +46,16 @@ export const ProductPageTemplate = ({
                 <p className="is-size-5">{pricing.description}</p>
                 <Pricing data={pricing.plans} />
               </div>
+                    
+
             </div>
+             <div className="columns">
+                    <div className="column is-12 has-text-centered">
+                      <Link className="btn" to="/contact">
+                        Contact Us
+                      </Link>
+                    </div>
+                  </div>
           </div>
         </div>
       </section>
