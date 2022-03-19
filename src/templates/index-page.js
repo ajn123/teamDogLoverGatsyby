@@ -8,6 +8,7 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import FullWidthImage from "../components/FullWidthImage";
 
+import Testimonials from "../components/Testimonials";
 import logo from "../../static/img/Team-Dog-Lover-logos_white.png";
 
 
@@ -41,6 +42,7 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  testimonials
 }) => {
   const heroImage = getImage(image) || image;
 
@@ -60,13 +62,21 @@ export const IndexPageTemplate = ({
                         See all Services
                       </Link>
                     </div>
-                  </div>
+                    </div>
+                 
                     <div className="tile">
                       <h1 className="title">{mainpitch.title}</h1>
                     </div>
                     <div className="tile">
                       <h3 className="subtitle">{mainpitch.description}</h3>
                     </div>
+                  </div>
+                   <div className="columns">
+                  
+              <div className="column is-10 is-offset-1">
+                <Testimonials testimonials={testimonials}/>
+              </div>
+                    
                   </div>
                   
                   <div className="column is-12">
@@ -115,12 +125,14 @@ const IndexPage = ({ data }) => {
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        testimonials={frontmatter.testimonials}
       />
     </Layout>
   );
 };
 
 IndexPage.propTypes = {
+  testimonials: PropTypes.array,
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
       frontmatter: PropTypes.object,
@@ -139,6 +151,10 @@ export const pageQuery = graphql`
           childImageSharp {
             gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
+        }
+        testimonials {
+          author
+          quote
         }
         heading
         subheading

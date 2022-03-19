@@ -63,12 +63,10 @@ main:
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
+      I had a last minute request. Alex responded quickly and worked with me to schedule a dog walk. Heshowed up right on time and my dog bonded with him instantly. Great job.
+  - author: Monica B
     quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
+      I loved working with Alex and Team Dog Lover. Very friendly taking care of my Golden Retriever. He just started his business so he offered the first meeting and greet as well as the first walk free. I have been using him for a month now and am more than happy! He really wants the experience as good as possible.
 full_image: /img/products-full-width.jpg
 pricing:
   heading: Daily Services

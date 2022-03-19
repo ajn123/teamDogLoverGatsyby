@@ -4,6 +4,9 @@ import { v4 } from "uuid";
 
 const Testimonials = ({ testimonials }) => (
   <div>
+  <h1 style={{textAlign: "center"}}>
+    Testimonials
+  </h1>
     {testimonials.map((testimonial) => (
       <article key={v4()} className="message">
         <div className="message-body">

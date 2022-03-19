@@ -4,6 +4,13 @@ title: Great Dog Walking in the DMV Area
 image: /img/dalmation.jpg
 heading: Great Dog Walking in the DMV Area
 subheading: ''
+testimonials:
+  - author: Elisabeth Kaurismäki
+    quote: >-
+      I had a last minute request. Alex responded quickly and worked with me to schedule a dog walk. Heshowed up right on time and my dog bonded with him instantly. Great job.
+  - author: Monica B
+    quote: >-
+      I loved working with Alex and Team Dog Lover. Very friendly taking care of my Golden Retriever. He just started his business so he offered the first meeting and greet as well as the first walk free. I have been using him for a month now and am more than happy! He really wants the experience as good as possible.
 mainpitch:
   title: Why Team Dog Lover
   description: >
@@ -66,4 +73,5 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+
 ---

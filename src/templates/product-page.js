@@ -49,6 +49,15 @@ export const ProductPageTemplate = ({
                     
 
             </div>
+
+            <div className="columns">
+
+              <div className="column is-10 is-offset-1">
+                <Testimonials testimonials={testimonials}/>
+              </div>
+                    
+
+            </div>
              <div className="columns">
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/contact">
