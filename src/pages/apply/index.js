@@ -123,6 +123,21 @@ export default class Index extends React.Component {
                       name={"email"}
                       onChange={this.handleChange}
                       id={"email"}
+                      required={false}
+                    />
+                  </div>
+                </div>
+                  <div className="field">
+                  <label className="label" htmlFor={"phone"}>
+                    Phone Number * Required
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={"phone"}
+                      name={"phone"}
+                      onChange={this.handleChange}
+                      id={"phone"}
                       required={true}
                     />
                   </div>
