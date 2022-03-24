@@ -142,9 +142,38 @@ export default class Index extends React.Component {
                     />
                   </div>
                 </div>
+                    <div className="field">
+                  <label className="label" htmlFor={"address"}>
+                    Zip codes(s) and mile radius you are willing to travel
+                  </label>
+                  <div className="control">
+                    <input
+                      className="input"
+                      type={"address"}
+                      name={"address"}
+                      onChange={this.handleChange}
+                      id={"address"}
+                      required={true}
+                    />
+                  </div>
+                </div>
+                <div className="field">
+                  <label className="label" htmlFor={"availability"}>
+                    Availability - Time and Days of the week you can do pet care
+                  </label>
+                  <div className="control">
+                    <textarea
+                      className="textarea"
+                      name={"availability"}
+                      onChange={this.handleChange}
+                      id={"availability"}
+                      required={true}
+                    />
+                  </div>
+                </div>
                 <div className="field">
                   <label className="label" htmlFor={"message"}>
-                    Message
+                    Message - Can you reliably take care of a pet week after week?  This rarely will be a one time thing.
                   </label>
                   <div className="control">
                     <textarea
@@ -152,7 +181,7 @@ export default class Index extends React.Component {
                       name={"message"}
                       onChange={this.handleChange}
                       id={"message"}
-                      required={true}
+                      required={false}
                     />
                   </div>
                 </div>
